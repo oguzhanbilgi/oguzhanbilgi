@@ -1,130 +1,89 @@
-# Hi, I'm Oğuzhan Bilgi 👋
+# Oğuzhan Bilgi
 
-**Junior Software Developer · Technical Engineer**  
-Istanbul, Türkiye
+**Software Developer | Flutter · Java/Spring Boot · Test Automation**  
+Istanbul, Türkiye · Open to hybrid roles in Istanbul and remote opportunities across Türkiye
 
-I build software projects across **Java/Spring Boot, Flutter, React and Unity**, while working professionally with technical support, system configuration, troubleshooting and hardware–software integration.
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-0A66C2?style=for-the-badge)](https://oguzhanbilgi.github.io/oguzhan-portfolio/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-111827?style=for-the-badge)](https://oguzhanbilgi.github.io/oguzhan-portfolio/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Oğuzhan_Bilgi-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/oguzhanbilgi3/)
 [![Email](https://img.shields.io/badge/Email-oguzhan--bilgi%40hotmail.com-0078D4?style=for-the-badge&logo=microsoftoutlook)](mailto:oguzhan-bilgi@hotmail.com)
 
----
+I build and test Android and full-stack applications, with hands-on experience across **Flutter/Dart, Java/Spring Boot, React, REST APIs, SQL and automated testing**. Alongside software development, I work professionally as a Technical Engineer troubleshooting hardware, software and network systems in the field.
 
-## About me
+## Selected engineering highlights
 
-- 🎓 Associate Degree in **Computer Programming**
-- 💼 Currently working as a **Technical Engineer** in Istanbul
-- 🇨🇳 Completed hands-on **Huidu Engineering Training in China** for LED control systems, configuration and troubleshooting
-- ☕ Building backend projects with **Java, Spring Boot, REST APIs, Spring Security and SQL**
-- 📱 Developing **Bismillah**, a Flutter-based mobile application with a local-first architecture and automated tests
-- 🎮 Building **WeddingWrecked**, a Unity/C# first-person physics prototype
-- 🧪 Interested in **software testing, debugging, API testing and product quality**
-- 🤖 I use AI development tools for planning, implementation support, debugging, testing and documentation. I validate the results and continue improving my core programming knowledge.
-- 🌍 Open to **hybrid roles in Istanbul** and **remote opportunities across Türkiye**
+- 📱 **Bismillah — Flutter Android app:** feature-first Clean Architecture with Riverpod, GoRouter, Drift and Firebase; protected by **4,000+ unit, widget and architecture-boundary tests**. Implemented RevenueCat subscriptions / one-time purchase flows and completed Google Play's **14-day closed test**, receiving production access.
+- 🎮 **Squishy Merge — Godot Android game:** **147 commits in its first 25 days**. Built a headless physics bot for difficulty calibration, replaced uncontrolled random drops with a bag randomizer that reduced 5+ same-tier repeat rounds from **48% to 4.3%**, and created **30+ scripted test scenes**.
+- 🛠️ **Technical engineering:** 1+ year of professional field experience installing, configuring and troubleshooting LED display systems across hardware, software and networking. **Huidu Certified Engineer (Senior)** after in-person engineering training in Shenzhen, China.
+- 🔐 **Java / Spring:** built REST APIs with Spring Boot, Spring Security, JWT, JPA/Hibernate and MySQL/MariaDB, including role-based authorization and layered Controller → Service → Repository architecture.
+- 🧪 **Quality mindset:** Selenium WebDriver, TestNG, Postman, real-device Android validation, unit/widget testing and release verification.
 
----
+## Core stack
 
-## Core technologies
-
-**Backend & APIs**  
-`Java` · `Spring Boot` · `Spring Security` · `Spring Data JPA` · `REST APIs` · `Maven`
-
-**Mobile & Frontend**  
-`Flutter` · `Dart` · `React` · `JavaScript` · `HTML` · `CSS`
-
-**Data & Testing**  
-`SQL` · `MySQL` · `Postman` · `Selenium` · `TestNG`
-
-**Other**  
-`Python` · `C#` · `Unity` · `Git` · `GitHub`
-
----
+| Area | Technologies |
+|---|---|
+| **Mobile** | Flutter, Dart, Riverpod, GoRouter, Firebase, Drift |
+| **Backend** | Java, Spring Boot, Spring Security, Spring Data JPA, Hibernate, REST APIs, JWT, Maven |
+| **Frontend** | React, TypeScript, JavaScript, HTML, CSS, Tailwind CSS |
+| **Data** | MySQL, MariaDB, SQLite, Supabase |
+| **Testing / QA** | Flutter unit & widget tests, Selenium WebDriver, TestNG, Postman, real-device testing |
+| **Tools** | Git, GitHub, Google Play Console, RevenueCat, AdMob, Godot |
 
 ## Featured projects
 
 ### 📱 [Bismillah](https://github.com/oguzhanbilgi/bismillah-app)
-A source-grounded Islamic companion application built with Flutter.
+Android-first Islamic lifestyle application with prayer, Quran, learning and local-first product flows.
 
-**Highlights**
-- Today, Prayer, Quran, Learn and Profile product areas
-- Offline/local-first flows and on-device persistence
-- Quran reading, search, bookmarks and audio
-- Riverpod state management and feature-first architecture
-- Unit, widget and architecture-boundary tests
-- Android-first development with real-device validation
+**Highlights:** Clean Architecture · Riverpod · GoRouter · Drift · Firebase · 4,000+ automated tests · Google Play closed testing · RevenueCat
 
-**Stack:** Flutter · Dart · Riverpod · GoRouter · Drift · Firebase
+---
+
+### 🎮 [Squishy Merge](https://github.com/oguzhanbilgi/Squishy-Merge)
+Physics-based mobile merge puzzle game built with Godot and GDScript.
+
+**Highlights:** headless gameplay simulation · measured difficulty balancing · deterministic randomization · 30+ scripted test scenes · Android real-device release gate
 
 ---
 
 ### 👥 [HR Management System](https://github.com/oguzhanbilgi/hr-management-system)
-Full-stack HR and inventory management project.
+Full-stack HR and inventory application.
 
-**Highlights**
-- JWT authentication and role-based authorization
-- Employee and inventory CRUD flows
-- Inventory assignment and personnel records
-- Layered Spring Boot backend with DTOs and repositories
-- React frontend connected to REST APIs
-
-**Stack:** Java 17 · Spring Boot · Spring Security · JPA · MySQL/MariaDB · React
-
----
-
-### 🍽️ [Restaurant Reservation System — Backend](https://github.com/oguzhanbilgi/restaurant-reservation-backend)
-REST API for a restaurant reservation platform with authentication, user roles and reservation management.
-
-**Stack:** Java · Spring Boot · Spring Security · JPA · MySQL · JWT
-
-Frontend: [restaurant-reservation-frontend](https://github.com/oguzhanbilgi/restaurant-reservation-frontend)
-
----
-
-### 🎮 [WeddingWrecked](https://github.com/oguzhanbilgi/WeddingWrecked)
-First-person physics game prototype focused on interaction and object-carrying mechanics.
-
-**Highlights**
-- FPS movement and camera foundation
-- Object focus, pickup and drop interactions
-- Physics-based carrying and loaded tray behavior
-- Deterministic EditMode tests and validation tools
-
-**Stack:** Unity 6 · C# · Unity Input System · Physics
+**Highlights:** Java 17 · Spring Boot · Spring Security · JWT · role-based authorization · JPA · MySQL/MariaDB · React
 
 ---
 
 ### 🎬 [Film Library](https://github.com/oguzhanbilgi/film-app)
-Full-stack movie library project using external movie data and personal collections.
+Full-stack movie discovery and personal-library application.
 
-**Stack:** Spring Boot · React · TypeScript · MySQL/H2 · TMDB API
-
----
-
-### 🧪 [SauceDemo Test Automation](https://github.com/oguzhanbilgi/selenium-saucedemo-tests)
-Small UI automation project covering login scenarios with Selenium WebDriver and TestNG.
-
-**Stack:** Java · Selenium · TestNG · Maven
+**Highlights:** Spring Boot · React · TypeScript · TMDB API · JPA · REST integration
 
 ---
 
-## Professional direction
+### 🧪 [Selenium POM Framework](https://github.com/oguzhanbilgi/selenium-pom-framework)
+Focused Java UI test-automation project using Selenium WebDriver, TestNG and the Page Object Model.
 
-I am looking for junior opportunities where I can continue learning while contributing to real products and technical operations, especially in:
+## Professional experience
 
-- Junior Software Development
-- Java / Backend Development
-- Application & Software Support
-- QA / Manual & API Testing
-- Technical Support / IT Operations
-- Unity / Game Development
+**Technical Engineer — LedAjans, Istanbul** · Aug 2025 – Present  
+Install, configure, test and troubleshoot LED display systems on-site and remotely, covering controller setup, software integration, networking and post-installation support.
 
----
+**Software Development Intern — JFORCE Information Technologies, Istanbul** · Jul 2024 – Aug 2024  
+Worked on an HR management application using Java, Spring Boot, React and a relational database; contributed to REST endpoints, frontend/backend integration, testing and debugging.
 
-## Portfolio & contact
+## Roles I am targeting
 
-🌐 **Portfolio:** https://oguzhanbilgi.github.io/oguzhan-portfolio/  
-💼 **LinkedIn:** https://www.linkedin.com/in/oguzhanbilgi3/  
-📧 **Email:** oguzhan-bilgi@hotmail.com
+- Flutter / Mobile Developer
+- Java / Backend Developer
+- Software Developer
+- QA / Test Automation Engineer
+- Application / Software Support Engineer
 
-> I value clear communication, practical problem solving, careful testing and continuous learning.
+## Education & certification
+
+- **Associate Degree — Computer Programming**, Recep Tayyip Erdoğan University, 2024
+- **Huidu Certified Engineer (Senior)**, Shenzhen Huidu Technology Co., Ltd., 2026
+
+## Contact
+
+- 🌐 Portfolio: https://oguzhanbilgi.github.io/oguzhan-portfolio/
+- 💼 LinkedIn: https://www.linkedin.com/in/oguzhanbilgi3/
+- 📧 Email: oguzhan-bilgi@hotmail.com
